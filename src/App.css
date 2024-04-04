@@ -1,0 +1,111 @@
+
+/*  Barra de Tareas */
+.os-barra-tareas{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  bottom: 1rem;
+  height: 2rem;
+}
+
+.buttonOs{
+  background-color: #1f1f1f33;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  -webkit-backdrop-filter: saturate(150%) blur(16px);
+  backdrop-filter: saturate(150%) blur(16px);
+  width: 2.5rem;
+  height: 2.5rem;
+  justify-content: center;
+  border-radius: .5rem;
+  border: .08rem solid hsla(0, 0%, 100%,.1);
+}
+/*  App Window  */
+.app-window-box{
+  background-color: rgba(255, 255, 255, 0.606);
+  border: 1px solid hsla(0, 0%, 100%, 0.611);
+  border-radius: .5rem;
+
+}
+.app-window{
+  backdrop-filter: saturate(150%) blur(6px);
+  height: 100%;
+  overflow: hidden;
+  border-radius: 7px;
+}
+.app-window-header{
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.312);
+  align-items: center;
+  padding-inline-start: .5rem;
+  padding-inline-end: .5rem;
+}
+.app-window-controls{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+.app-window-controls span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 14px;
+  width: 14px;
+  border-radius: 20px;
+  padding: 2px;
+}
+.cerrar{
+  background-color: rgb(210, 0, 0);
+}
+.minimizar{
+  background-color: rgb(41, 152, 0);
+}
+.maximizar{
+  background-color: rgb(218, 169, 9);
+}
+
+/*Editor Windows*/
+.editorHtml{
+  height: 100%;
+}
+button:disabled {
+  /* Otros estilos personalizados */
+  background-color: #1e1e1e; /* Cambia el color de fondo */
+  color: #999; /* Cambia el color del texto */
+  border: none; /* Cambia el borde */
+  padding-block: 5px;
+}
+button {
+  /* Otros estilos personalizados */
+
+  background-color: #2c2c2c; /* Cambia el color de fondo */
+  color: #999; /* Cambia el color del texto */
+  border: none; /* Cambia el borde */
+  padding-block: 5px;
+  padding-inline-start: 20px;
+  padding-inline-end: 60px;
+}
+.button-js{
+  background-image: url('./assets/js.png');
+  background-repeat: no-repeat;
+}
+.button-html{
+  background-image: url('./assets/html.png');
+  background-repeat: no-repeat;
+}
+.button-css{
+  background-image: url('./assets/css.png');
+  background-repeat: no-repeat;
+}
+.buttons-files{
+  background-color: #1e1e1e;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+}
